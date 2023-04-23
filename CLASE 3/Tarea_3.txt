@@ -1,0 +1,17 @@
+3. Investiguen los tipos de archivos de modelos 3D que admite Three.js
+
+OBJ (.obj)
+FBX (.fbx)
+GLTF (.glb/.gltf)
+Collada (.dae)
+Three.js JSON (.json/.js)
+3D Studio Max (.max)
+Blender (.blend)
+Autodesk 3DS (.3ds)
+Stanford PLY (.ply)
+Cada uno de estos formatos de archivo tiene sus propias características y requerimientos, por lo que es importante revisar la documentación de Three.js o @react-three/fiber para obtener más información sobre cómo trabajar con cada formato específico. También es importante tener en cuenta que no todos los navegadores son capaces de manejar todos los formatos, por lo que es importante verificar la compatibilidad del formato de archivo en los navegadores de destino antes de utilizarlo.
+
+Referencias:
+
+Documentación oficial de @react-three/fiber: https://github.com/pmndrs/react-three-fiber
+three-obj-loader: https://github.com/mrdoob/three.js/tree/dev/examples/js/loaders
